@@ -90,9 +90,12 @@ Navigate to the folder where the repository is cloned:
 
 ```bash
 cd telegram_x_instagram_bot
+git submodule update --init --recursive
 ```
 
 ---
+
+This allows Git to read the information in the .gitmodules file and fetch the content of the specified submodules, ensuring that all required submodules are downloaded and correctly integrated into your project.
 
 ## 3. Install Dependencies
 
