@@ -1,0 +1,4 @@
+--no-metadata-json
+--no-profile-pic
+--no-caption
+--no-video-thumbnails
