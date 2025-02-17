@@ -6,10 +6,10 @@ This project is provided for educational purposes only. The author disclaims any
 
 This project was developed to enhance my skills in Python and API integration. It allows you to:
 
-- ✅ Download photos from Instagram 📸
-- ✅ Apply deepfake technology to these images using the Roop GitHub repo 🤖
-- ✅ Automatically post the modified images on Instagram 📤
-- ✅ Control the entire process via a Telegram bot 🤖📱
+✅ Download photos from Instagram 📸
+✅ Apply deepfake technology to these images using the Roop GitHub repo 🤖
+✅ Automatically post the modified images on Instagram 📤
+✅ Control the entire process via a Telegram bot 🤖📱
 
 The GitHub repository for Roop is included in this project folder.
 
