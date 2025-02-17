@@ -5,11 +5,9 @@ import time
 from instagrapi import Client
 import random
 
-#import cv2
-#from cv2 import dnn_superrres
-
 telegram_api_key = "Your Telegram Key"
 bot = telebot.TeleBot(telegram_api_key)
+
 # List of captions to use when posting photos or videos.
 # Add your own captions as strings inside the list.
 # Example: captions = ["Great view!", "Amazing shot!", "Sunset vibes 🌅"]
@@ -88,7 +86,6 @@ def send_welcome(message):
         time.sleep(5)
     bot.reply_to(message, "All answers are sent")
 
-
 @bot.message_handler(regexp="Import_")
 def send_welcome(message):
   string = ""
@@ -119,7 +116,6 @@ def send_welcome(message):
             im.save(os.path.abspath('photo')+"/"+f"{filename[:-4]}.png", 'PNG')
             os.remove(os.path.abspath('photo')+"/"+f"{filename}")
   bot.reply_to(message, string)
-
 
 @bot.message_handler(regexp="Faceswap_")
 def send_welcome(message):
@@ -243,8 +239,6 @@ def send_welcome(message):
     bot.reply_to(message, f"Waiting {timer} seconds")
     time.sleep(timer)
   bot.reply_to(message, f"End of publication")
-
-
 
 @bot.message_handler(regexp="Like_")
 def send_welcome(message):
