@@ -269,3 +269,17 @@ Here is the list of commands you can use in the bot:
 - `/Respons_`: Allows replying to one or more users with the desired message. (Format: `Respons_user_textresponse,user_textresponse...`)
 
 Once you've launched the bot, you can use these commands to control its behavior via Telegram.
+
+
+## License
+
+This project is licensed under the MIT License with the following modifications:
+- Personal use is allowed.
+- Any commercial or professional use requires prior authorization from the author.
+
+**Disclaimer**:  
+The author disclaims any responsibility for the misuse of this software. The Software is provided "as-is" for educational and personal use, and it was created solely for learning purposes.  
+- It is highly discouraged to use or download images that do not belong to you. The user assumes full responsibility for ensuring they have the necessary rights to use any images processed with this software.  
+- The author is not liable for any damages, legal issues, or negative consequences arising from the use of the Software.
+
+See the [LICENSE](LICENSE) file for full details.
