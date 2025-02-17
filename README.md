@@ -92,10 +92,17 @@ Navigate to the folder where the repository is cloned:
 cd telegram_x_instagram_bot
 git submodule update --init --recursive
 ```
+This allows Git to read the information in the .gitmodules file and fetch the content of the specified submodules, ensuring that all required submodules are downloaded and correctly integrated into your project.
 
 ---
 
-This allows Git to read the information in the .gitmodules file and fetch the content of the specified submodules, ensuring that all required submodules are downloaded and correctly integrated into your project.
+If the above command doesn't work, you can manually clone the submodule directly to the root of the project by running the following command:
+
+```bash
+git clone https://github.com/s0md3v/roop
+```
+
+This will fetch the submodule content directly and integrate it into the project.
 
 ## 3. Install Dependencies
 
